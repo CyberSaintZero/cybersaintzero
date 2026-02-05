@@ -144,20 +144,64 @@
         <div class="grid">
           <!-- Replace the video IDs with your own YouTube IDs -->
           <iframe width="100%" height="240" src="https://www.youtube.com/embed/4AqVtMuXMH0?si=NpHzU8zPB9CZ1sLa" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe width="100%" height="240" src="https://www.youtube.com/embed/Gu-g8FRG4Zs?si=dmM6Rir9vaGJcfex" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="100%" height="240" src="https://www.youtube.com/embed/1jgeWfk6Zqk?si=2PiSFwwvGN_3DupR" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
-    </main>
 
-    <footer>
-      <div class="wrap" style="padding:0">
-        <div>© <span id="year"></span> William T. Salisbury • <span class="muted">Built with plain HTML/CSS. Fast, secure, minimal.</span></div>
+<section id="latest-linkedin">
+  <h2>Latest LinkedIn Post</h2>
+
+  <div class="li-card" id="liCard">
+    <div class="li-content" id="liContent">
+      <div class="li-meta">
+        <!-- Optional: update this date manually when you post -->
+        <span id="liDate" class="muted small">Posted: Feb 5, 2026</span>
+
+        <!-- Hard-coded permalink -->
+        <a
+          id="liPermalink"
+          class="small"
+          href="https://www.linkedin.com/feed/update/urn:li:activity:7425172636088963072"
+          target="_blank"
+          rel="noopener"
+        >
+          View on LinkedIn →
+        </a>
       </div>
-    </footer>
+
+      <!-- Optional: hard-code a short teaser/preview of the post -->
+      <div id="liText" class="small">
+        We celebrated 10 Years of Talent at Sapphire Health 💎 last week… and we’re just getting warmed up. 😁
+      </div>
+
+      <!-- Optional: Add a profile link below -->
+      <div class="small muted" style="margin-top:10px">
+        <a
+          id="liProfileLink"
+          href="https://www.linkedin.com/in/williamthomassalisbury"
+          target="_blank"
+          rel="noopener"
+        >
+          View full activity on my LinkedIn →
+        </a>
+      </div>
+    </div>
   </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap" style="padding:0">
+    <div>© <span id="year"></span> William T. Salisbury • <span class="muted">Built with plain HTML/CSS. Fast, secure, minimal.</span></div>
+  </div>
+</footer>
+</div>
+
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
+
 </body>
 </html>
