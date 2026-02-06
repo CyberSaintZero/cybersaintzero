@@ -11,38 +11,7 @@
   <meta property="og:image" content="/images/profile.jpg" />
   <meta name="color-scheme" content="light dark" />
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-  <style>
-    :root{--bg:#0b0e14;--card:#111826;--muted:#8aa0b3;--text:#e6edf3;--accent:#66e0a3;--line:#1e293b}
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Inter,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text)}
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:1080px;margin:0 auto;padding:24px}
-    header{display:flex;align-items:center;gap:20px;padding:28px 0;border-bottom:1px solid var(--line)}
-    header img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:2px solid var(--line)}
-    h1{font-size:28px;margin:0 0 6px}
-    .title{font-weight:600;color:var(--muted)}
-    .cta{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(180deg,#0f1521,#0b0e14);transition:transform .05s ease}
-    .btn:hover{transform:translateY(-1px)}
-    main{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;padding:24px 0}
-    @media (max-width:940px){main{grid-template-columns:1fr}}
-    section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px}
-    section h2{font-size:18px;margin:0 0 14px;color:var(--accent)}
-    .pill{display:inline-block;border:1px solid var(--line);padding:6px 10px;border-radius:999px;margin:4px 6px 0 0;color:var(--muted)}
-    .exp{display:grid;gap:14px}
-    .exp-item{border:1px solid var(--line);border-radius:14px;padding:12px}
-    .exp-item h3{margin:0 0 4px;font-size:16px}
-    .exp-meta{font-size:13px;color:var(--muted)}
-    .list{display:grid;gap:10px}
-    .list a{border:1px solid var(--line);padding:10px 12px;border-radius:10px;display:flex;justify-content:space-between;align-items:center}
-    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-    @media (max-width:640px){.grid{grid-template-columns:1fr}}
-    footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-size:14px}
-    .muted{color:var(--muted)}
-    .small{font-size:13px}
-    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;border:1px solid var(--line);border-bottom:2px solid #0a0d12;background:#0a0d12;border-radius:6px;padding:1px 6px}
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="wrap">
@@ -143,8 +112,10 @@
         <h2>Featured Videos</h2>
         <div class="grid">
           <!-- Replace the video IDs with your own YouTube IDs -->
-          <iframe width="100%" height="240" src="https://www.youtube.com/embed/4AqVtMuXMH0?si=NpHzU8zPB9CZ1sLa" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <!--<iframe width="100%" height="240" src="https://www.youtube.com/embed/4AqVtMuXMH0?si=NpHzU8zPB9CZ1sLa" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        -->
           <iframe width="100%" height="240" src="https://www.youtube.com/embed/1jgeWfk6Zqk?si=2PiSFwwvGN_3DupR" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="100%" height="240" src="https://www.youtube.com/embed/Gu-g8FRG4Zs?si=yR5Nekn8Pvtd7pu7" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
 
